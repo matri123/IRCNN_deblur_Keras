@@ -1,5 +1,4 @@
 import numpy as np
-from comp_psnr import comp_quantitative
 
 def PSNR(blur, clear, kernel_size = 19):
     psnr, ssim = comp_quantitative(blur,clear,kernel_size)
